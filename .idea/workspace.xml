@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00df2590-80e2-48ed-aec5-3bfa17704208" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Seminar2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/podatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/podatki.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="Seminar2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Seminar2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="324">
+              <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#12050#12051#0" expanded="true" />
@@ -45,8 +46,8 @@
       <file leaf-file-name="podatki.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/podatki.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="362">
+              <caret line="5769" column="39" lean-forward="true" selection-start-line="5769" selection-start-column="39" selection-end-line="5769" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -75,6 +76,7 @@
       <find>set_segment</find>
       <find>get_value</find>
       <find>x</find>
+      <find>report_intersection</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,8 +86,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/podatki.txt" />
         <option value="$PROJECT_DIR$/src/test.txt" />
+        <option value="$PROJECT_DIR$/src/podatki.txt" />
         <option value="$PROJECT_DIR$/src/Seminar2.java" />
       </list>
     </option>
@@ -137,7 +139,8 @@
     <configuration name="Seminar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seminar2" />
       <module name="Seminar2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="src/podatki.txt" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -437,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/podatki.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45000">
@@ -451,10 +447,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/podatki.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="5769" column="39" lean-forward="true" selection-start-line="5769" selection-start-column="39" selection-end-line="5769" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Seminar2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        <state relative-caret-position="324">
+          <caret line="90" column="60" lean-forward="true" selection-start-line="90" selection-start-column="60" selection-end-line="90" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#12050#12051#0" expanded="true" />

@@ -81,22 +81,16 @@ public class Seminar2{
                         s.set_segId(index);
                         this.t.add(s);
                         Segment s1 = this.t.lower(s);
-                        int loopCount = 0;
                         while(s1 != null){
-                            this.report_intersection(s1, s, L);
+                            this.find_intersection(s1, s, L);
                             s1 = this.t.lower(s1);
-                            loopCount++;
                         }
-                        System.out.println("1: "+loopCount);
 
-                        int loopCount1 = 0;
                         Segment t = this.t.higher(s);
                         while(t != null){
-                            this.report_intersection(t, s, L);
+                            this.find_intersection(t, s, L);
                             t = this.t.higher(t);
-                            loopCount1++;
                         }
-                        System.out.println("2: "+loopCount1);
                     }
                     index++;
                     break;
@@ -105,40 +99,12 @@ public class Seminar2{
                         if(this.t.lower(s) != null && this.t.higher(s) != null) {
                             Segment r = this.t.lower(s);
                             Segment t = this.t.higher(s);
-                            this.report_intersection(r, t, L);
+                            this.find_intersection(r, t, L);
                         }
                         this.t.remove(s);
                     }
                     break;
                 case 2:
-                    Segment s_1 = e.get_segment().get(0);
-                    Segment s_2 = e.get_segment().get(1);
-                    /*this.swap(s_1, s_2);
-                    if(s_1.get_segId() < s_2.get_segId()){
-                        if(this.t.lower(s_1) != null) {
-                            Segment t = this.t.lower(s_1);
-                            this.report_intersection(t, s_1, L);
-                            this.remove_future(t, s_2);
-                        }
-                        if(this.t.higher(s_2) != null) {
-                            Segment r = this.t.higher(s_2);
-                            this.report_intersection(r, s_2, L);
-                            this.remove_future(r, s_1);
-                        }
-                    }
-                    else {
-                        if(this.t.lower(s_2) != null) {
-                            Segment t = this.t.lower(s_2);
-                            this.report_intersection(t, s_2, L);
-                            this.remove_future(t, s_1);
-                        }
-                        if(this.t.higher(s_1) != null) {
-                            Segment r = this.t.higher(s_1);
-                            this.report_intersection(r, s_1, L);
-                            this.remove_future(r, s_2);
-                        }
-                    }*/
-
                     String a;
                     if(e.get_segment().get(0).trueId < e.get_segment().get(1).trueId){
                         a = e.get_segment().get(0).trueId + "->" + e.get_segment().get(1).trueId;
@@ -157,7 +123,7 @@ public class Seminar2{
         return this.x1.size();
     }
 
-    private boolean report_intersection(Segment s_1, Segment s_2, double L) {
+    private boolean find_intersection(Segment s_1, Segment s_2, double L) {
         if(s_1.color == s_2.color) return false;
 
         double x1 = s_1.first().getX_coord();
@@ -175,10 +141,9 @@ public class Seminar2{
             if(t >= 0 && t <= 1 && u >= 0 && u <= 1) {
                 double x_c = x1 + t * (x2 - x1);
                 double y_c = y1 + t * (y2 - y1);
-                //if(x_c > L) {
-                    this.queue.add(new Event(new Point(x_c, y_c), new ArrayList<>(Arrays.asList(s_1, s_2)), 2, eventId++));
-                    return true;
-                //}
+
+                this.queue.add(new Event(new Point(x_c, y_c), new ArrayList<>(Arrays.asList(s_1, s_2)), 2, eventId++));
+                return true;
             }
         }
         // if points x2 is start of x1 with different colors
