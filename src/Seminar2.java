@@ -17,7 +17,7 @@ public class Seminar2{
         ArrayList<Segment> list = s.init_function();
         s.benley_ottman();
 
-        new GUI(list, s.get_x());
+        //new GUI(list, s.get_x());
     }
 
     public ArrayList<Point> get_x(){
@@ -32,7 +32,7 @@ public class Seminar2{
 
         ArrayList<Segment> list = new ArrayList<>();
         try {
-            FileReader fileReader = new FileReader("src/podatki.txt");
+            FileReader fileReader = new FileReader("src/test.txt");
             //FileReader fileReader = new FileReader("src/test.txt");
             BufferedReader br = new BufferedReader(fileReader);
 
@@ -69,7 +69,7 @@ public class Seminar2{
         return list;
     }
 
-    private void benley_ottman(){
+    private int benley_ottman(){
         int index = 1;
         while(!this.queue.isEmpty()){
             Event e = this.queue.poll();
@@ -152,7 +152,9 @@ public class Seminar2{
                     break;
             }
         }
-        System.out.println("Konec: "+ this.x1.size());
+        System.out.println(this.x1.size());
+
+        return this.x1.size();
     }
 
     private boolean report_intersection(Segment s_1, Segment s_2, double L) {

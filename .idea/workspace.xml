@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00df2590-80e2-48ed-aec5-3bfa17704208" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$Event.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$Segment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$Segment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$event_comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$event_comparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$segment_comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar2/Seminar2$segment_comparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Seminar2/Seminar2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Seminar2/Seminar2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Seminar2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seminar2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Seminar2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Seminar2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Seminar2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="97" column="25" lean-forward="true" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+            <state relative-caret-position="437">
+              <caret line="154" column="43" lean-forward="true" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#12050#12051#0" expanded="true" />
@@ -49,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="podatki.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="podatki.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/podatki.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -61,8 +55,8 @@
       <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="45000">
+              <caret line="3000" lean-forward="true" selection-start-line="3000" selection-end-line="3000" />
             </state>
           </provider>
         </entry>
@@ -91,8 +85,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GUI.java" />
-        <option value="$PROJECT_DIR$/src/test.txt" />
         <option value="$PROJECT_DIR$/src/podatki.txt" />
+        <option value="$PROJECT_DIR$/src/test.txt" />
         <option value="$PROJECT_DIR$/src/Seminar2.java" />
       </list>
     </option>
@@ -208,6 +202,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -443,17 +438,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/podatki.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="45000">
+          <caret line="3000" lean-forward="true" selection-start-line="3000" selection-end-line="3000" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Seminar2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="97" column="25" lean-forward="true" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+        <state relative-caret-position="437">
+          <caret line="154" column="43" lean-forward="true" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#12050#12051#0" expanded="true" />
@@ -461,13 +463,6 @@
             <element signature="e#12130#12131#0" expanded="true" />
             <element signature="e#12166#12167#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/podatki.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
