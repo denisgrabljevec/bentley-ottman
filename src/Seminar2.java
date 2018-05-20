@@ -14,7 +14,7 @@ public class Seminar2{
     public static void main(String[] args){
         Seminar2 s = new Seminar2();
 
-        ArrayList<Segment> list = s.init_function();
+        ArrayList<Segment> list = s.init_function(args[0]);
         s.benley_ottman();
 
         //new GUI(list, s.get_x());
@@ -24,7 +24,7 @@ public class Seminar2{
         return this.x;
     }
 
-    private ArrayList<Segment> init_function(){
+    private ArrayList<Segment> init_function(String path){
         this.queue = new PriorityQueue<>(new event_comparator());
         this.t = new TreeSet<>(new segment_comparator());
         this.x = new ArrayList<>();
@@ -32,7 +32,7 @@ public class Seminar2{
 
         ArrayList<Segment> list = new ArrayList<>();
         try {
-            FileReader fileReader = new FileReader("src/test.txt");
+            FileReader fileReader = new FileReader(path);
             //FileReader fileReader = new FileReader("src/test.txt");
             BufferedReader br = new BufferedReader(fileReader);
 
